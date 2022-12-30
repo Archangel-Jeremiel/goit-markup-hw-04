@@ -215,7 +215,7 @@ button.hero-button {
 .item-container{
   display: block;
   height: 120px;
-  margin: 
+  padding: auto;
   background-color: #F5F4FA;
 
 }
