@@ -39,15 +39,28 @@
             </li>
           </ul>
         </nav>
-        <ul class="list header-contacts">
-          <li class="header-contacts-list">
-            <a href="mailto:info@devstudio.com" class="link-contacts"
-              >info@devstudio.com</a
+        <ul class="list header-mail">
+          <li class="header-contacts">
+            <a href="mailto:info@devstudio.com" class="link-contacts">
+              <svg width="16"
+              height="12" fill="currentColor" class="icon-contacts" >
+                <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-mail"
+                ></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-list">
+          <li class="header-contacts">
             <a href="tel:+380961111111" class="link-contacts"
-              >+38 096 111 11 11</a
+              >
+              <svg width="10"
+              height="16" fill="currentColor" class="icon-contacts" >
+                <use
+                  href="./images/icons.svg/symbol-defs.svg#icon-phone"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -56,10 +69,8 @@
     <main class="main">
       <section class="hero">
         <div class="container">
-        <h1 class="hero-title">
-          Ефективні рішення для вашого бізнесу
-        </h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
         </div>
       </section>
       <section class="advantage section">
@@ -67,6 +78,14 @@
           <h2 class="visually-hidden">Підхід до роботи</h2>
           <ul class="list advantage-list">
             <li class="item">
+              <div class="item-container">
+                <svg width="70"
+                height="70" fill="currentColor" class="advantage-item" >
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#icon-satellite-dish"
+                  ></use>
+                </svg>
+              </div>
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -141,6 +160,11 @@
               <div class="teem-card">
                 <h3 class="name">Ігор Дем'яненко</h3>
                 <p class="text">Product Designer</p>
+                <!-- Тегу button в котором есть картинка и нет никаких других обозначений (в случае не прогруза картинки не будет ясно что это за кнопка) нужно давать атрибут aria-label="" это тоже что alt="" в img (в случае не прогруза картинки будет в место неё короткое описание кнопки) -->
+                <a href="" class="icons icon-instagram"></a>
+                <a href="" class="icons icon-twitter"></a>
+                <a href="" class="icons icon-facebook"></a>
+                <a href="" class="icons icon-linkedin"></a>
               </div>
             </li>
             <li class="card">
@@ -153,6 +177,10 @@
               <div class="teem-card">
                 <h3 class="name">Ольга Рєпіна</h3>
                 <p class="text">Frontend Developer</p>
+                <a href="" class="icons icon-instagram"></a>
+                <a href="" class="icons icon-twitter"></a>
+                <a href="" class="icons icon-facebook"></a>
+                <a href="" class="icons icon-linkedin"></a>
               </div>
             </li>
             <li class="card">
@@ -165,6 +193,10 @@
               <div class="teem-card">
                 <h3 class="name">Микола Тарасов</h3>
                 <p class="text">Marketing</p>
+                <a href="" class="icons icon-instagram"></a>
+                <a href="" class="icons icon-twitter"></a>
+                <a href="" class="icons icon-facebook"></a>
+                <a href="" class="icons icon-linkedin"></a>
               </div>
             </li>
             <li class="card">
@@ -177,6 +209,10 @@
               <div class="teem-card">
                 <h3 class="name">Михайло Єрмаков</h3>
                 <p class="text">UI Designer</p>
+                <a href="" class="icons icon-instagram"></a>
+                <a href="" class="icons icon-twitter"></a>
+                <a href="" class="icons icon-facebook"></a>
+                <a href="" class="icons icon-linkedin"></a>
               </div>
             </li>
           </ul>
@@ -214,6 +250,13 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="">
+        <h2>ПРИЄДНУЙТЕСЬ</h2>
+        <a href="" class="icons icon-instagram"></a>
+        <a href="" class="icons icon-twitter"></a>
+        <a href="" class="icons icon-facebook"></a>
+        <a href="" class="icons icon-linkedin"></a>
       </div>
     </footer>
   </body>
