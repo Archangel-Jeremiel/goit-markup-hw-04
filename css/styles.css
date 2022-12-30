@@ -215,34 +215,10 @@ button.hero-button {
 .item-container{
   display: block;
   height: 120px;
-  padding: auto;
-  background-color: #F5F4FA;
-
-}
-.advantage-item {
-}
-/* .advantage .item::before {
-  content:"";
-  display: block;
-  height: 120px;
   margin-bottom: 30px;
+  padding: 25px 100px;
   background-color: #F5F4FA;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px;
 }
-.advantage .item:nth-child(1)::before {
-  background-image: url(../images/icons.svg/satellite-dish.svg);
-}
-.advantage .item:nth-child(2)::before {
-  background-image: url(../images/icons.svg/clock.svg);
-}
-.advantage .item:nth-child(3)::before {
-  background-image: url(../images/icons.svg/diagram.svg);
-}
-.advantage .item:nth-child(4)::before {
-  background-image: url(../images/icons.svg/astronaut.svg);
-} */
 .advantage .title {
   margin-bottom: 10px;
 
