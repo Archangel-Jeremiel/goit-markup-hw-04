@@ -277,10 +277,10 @@ button.hero-button {
   height: auto;
 }
 .teem-card {
-  padding: 20px 24px; 
+  padding: 20px 32px; 
 }
 .teem .name {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 
   color: var(--primary-title-color);
   font-weight: 500;
@@ -288,40 +288,25 @@ button.hero-button {
   line-height: 1.19;
 }
 .teem .text {
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
-.icons {
-  display: inline-flex;
-  height: 44px;
-  width: 44px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 16px;
-  border-radius: 50%;
-}
-.icons:hover,
-.icons:focus {
-  background-color: #2196f3;
-}
-.icons:not(:last-child) {
+.social-item:not(:last-child) {
   margin-right: 10px;
 }
-.icons.icon-instagram {
-  background-image: url(../images/icons.svg/instagramm.svg);
-}
-.icons.icon-twitter {
-  background-image: url(../images/icons.svg/twitter.svg);
-}
-.icons.icon-facebook {
-  background-image: url(../images/icons.svg/facebook.svg);
-}
-.icons.icon-linkedin {
-  background-image: url(../images/icons.svg/in.svg);
-}
+.social-link {
 
+}
+.social-icon {
+  display: block;
+  color: #b92222;
+}
+.social-icon:hover,
+.social-icon:focus {
+}
 /* Футер */
 .footer {
   background-color: var(--hero-footer-background-color);
