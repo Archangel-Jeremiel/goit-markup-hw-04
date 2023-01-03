@@ -127,8 +127,9 @@ button.hero-button {
 }
 
 .link-contacts {
-  display: block;
+  display: flex;
   padding: 35px 0px;
+  align-items: center;
 
   text-decoration: none;
   color: var(--primary-text-color);
@@ -213,10 +214,11 @@ button.hero-button {
   width: 270px;
 }
 .item-container{
-  display: block;
+  display: flex;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  align-items: center;
+  justify-content: center;
   background-color: #F5F4FA;
 }
 .advantage .title {
@@ -321,17 +323,22 @@ button.hero-button {
 .social-link:focus .social-icon {
   fill: #ffffff;
 }
+/* Клиенты */
 .clients .list {
   padding-left: 0;
   display: flex;
+}
+.clients .item {
+  width: 170px;
+  height: 92px;
 }
 .clients .item:not(:last-child) {
   margin-right: 30px;
 }
 .clients .link-client {
-  display: block;
-  padding: 16px 30px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   border: 1px solid #afb1b8;
@@ -349,35 +356,7 @@ button.hero-button {
 .clients .link-client:focus .icon-client {
   fill: #2196f3;
 }
-/* .clients .item:hover,
-.clients .item:focus {
-  border: 1px solid #2196f3;
-}
 
-.clients .item:hover .icon-client,
-.clients .item:focus .icon-client {
-  fill: #2196f3;
-} */
-/* .social-link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: #2196f3;
-}
-.teem .social-icon {
-  fill: #afb1b8;
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: #ffffff;
-} */
 /* Футер */
 .footer {
   background-color: var(--hero-footer-background-color);
@@ -385,6 +364,7 @@ button.hero-button {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   margin-bottom: 20px;
@@ -432,7 +412,6 @@ button.hero-button {
   margin-left: 70px;
 }
 .social-title {
-  margin-top: 12px;
   margin-bottom: 20px;
 
   color: #ffffff;
@@ -473,7 +452,11 @@ background-color: rgba(255, 255, 255, 0.1);
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.list-projects .item:hover {
+.list-projects .link{
+  display: block;
+}
+.list-projects .link:hover,
+.list-projects .link:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16),
   0 4px 4px 0 rgba(0, 0, 0, 0.06);
 }
